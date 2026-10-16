@@ -10,3 +10,15 @@ color.push("Yellow")
 console.log(color)
 color.shift()
 console.log(color)
+
+
+
+// Exercise8
+let car ={
+    make : "Totota",
+    model : "collora",
+    year : 2020
+}
+console.log(car.make)
+console.log(car.model)
+console.log(car.year)
