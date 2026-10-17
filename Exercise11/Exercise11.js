@@ -19,9 +19,16 @@
 // }
 
 // Exercise 14
-let i=0;
-do{
-    i=prompt(i>10)
-    console.log(i>10)
-} while(i<=10)
-    console.log("welcome")
+// let i=0;
+// do{
+//     i=prompt(i>10)
+//     console.log(i>10)
+// } while(i<=10)
+//     console.log("welcome")
+
+
+    //Exercise15
+    const person = { name: "Alice", age: 25, city: "Wonderland" };
+for (const key in person) {
+    console.log(key + ": " + person[key]);
+}
