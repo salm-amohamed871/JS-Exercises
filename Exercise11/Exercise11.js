@@ -11,9 +11,17 @@
 //     console.log(fruits[i])
 // }
 
-//Exercise 12
-let i=5;
-while(i>0){
-    console.log(i)
-    i--
-}
+//Exercise 13
+// let i=5;
+// while(i>0){
+//     console.log(i)
+//     i--
+// }
+
+// Exercise 14
+let i=0;
+do{
+    i=prompt(i>10)
+    console.log(i>10)
+} while(i<=10)
+    console.log("welcome")
