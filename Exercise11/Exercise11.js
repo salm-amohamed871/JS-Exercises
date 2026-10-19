@@ -28,7 +28,21 @@
 
 
     //Exercise15
-    const person = { name: "Alice", age: 25, city: "Wonderland" };
-for (const key in person) {
-    console.log(key + ": " + person[key]);
-}
+    const person = [
+        { name: "Alice", age: 25, city: "Wonderland" },
+        {
+            name:"bob", age:30, city:"Wonderland"
+        },
+        {
+            name:"charlie", age:35,city: "washigtone"
+        }
+    ] 
+    for(const p of person){
+
+        for(const key in p){
+        console.log(key +": "+p[key])
+    }
+    }
+    
+
+ 
