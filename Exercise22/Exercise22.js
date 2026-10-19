@@ -22,7 +22,7 @@ function calculateArea(widith,hight=4){
 calculateArea(4)
 
 
-//Exercise 24
+//Exercise 25
 //Spread
 const numbers =[1,2,3]
 const newNumbers = [...numbers,4,5,6]
