@@ -38,3 +38,13 @@ async function getData() {
 }
 
 getData();
+
+// Exercise 29
+async function FetchDate() {
+    console.log("Starting.....")
+    const respone = await fetch('https://jsonplaceholder.typicode.com/posts')
+    const date = await respone.json();
+    console.log("Respone: ", date)
+
+}
+FetchDate()
