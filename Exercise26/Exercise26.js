@@ -48,3 +48,29 @@ async function FetchDate() {
 
 }
 FetchDate()
+
+
+// Exercise 30
+
+function operate(a,b, callback){
+    return callback(a,b)
+}
+function add(a,b){
+    return a+b
+}
+
+function sub(a,b){
+    return a-b
+}
+
+function devide(a,b){
+    return a/b
+}
+
+function multiply(a,b){
+    return a*b
+}
+console.log("Adding: ", operate(3,4, add))
+console.log("Subtaracting: ", operate(3,4, sub))
+console.log("Devide: ", operate(3,4, devide))
+console.log("Multiplication: ", operate(3,4, multiply))
