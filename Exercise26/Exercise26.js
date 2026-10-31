@@ -25,3 +25,16 @@ function fetchData() {
 fetchData()
     .then((message) => console.log(message))
     .catch((error) => console.log(error));
+
+
+// Exercise 28
+async function getData() {
+    try {
+        const message = await fetchData();
+        console.log(message);
+    } catch (error) {
+        console.log(error);
+    }
+}
+
+getData();
