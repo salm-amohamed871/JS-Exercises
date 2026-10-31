@@ -11,3 +11,17 @@ function blockingFunction() {
 }
 
 console.log(blockingFunction());
+
+// Exercise 27
+
+function fetchData() {
+    return new Promise((resolve, reject) => {
+        setTimeout(() => {
+            resolve("Task completed successfully!");
+        }, 2000);
+    });
+}
+
+fetchData()
+    .then((message) => console.log(message))
+    .catch((error) => console.log(error));
