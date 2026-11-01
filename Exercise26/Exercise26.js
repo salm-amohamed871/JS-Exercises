@@ -74,3 +74,21 @@ console.log("Adding: ", operate(3,4, add))
 console.log("Subtaracting: ", operate(3,4, sub))
 console.log("Devide: ", operate(3,4, devide))
 console.log("Multiplication: ", operate(3,4, multiply))
+
+//Exercise 31
+async function getUser() {
+    try {
+        const response = await fetch('https://jsonplaceholder.typicode.com/users')
+        
+        if(!response.ok){
+            throw new Error("data failed");
+            
+        }
+         const data = await response.json()
+         console.log("Response:",data)
+    } catch (error) {
+        console.log(error)
+    }
+    
+}
+getUser()
