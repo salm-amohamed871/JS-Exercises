@@ -1,35 +1,35 @@
-// // Exercise 32
-// const title = document.querySelector('#title')
-// console.log(title)
+// Exercise 32
+const title = document.querySelector('#title')
+console.log(title)
 
-// const text = document.querySelectorAll(".text")
-// console.log(text)
+const text = document.querySelectorAll(".text")
+console.log(text)
 
-// // Exercise 33
+// Exercise 33
 
-// function changeContent(){
-//     title.innerHTML ="Welcome To DOM"
-//     content.innerHTML = "I am learning JavaScript DOM"
-// }
+function changeContent(){
+    title.innerHTML ="Welcome To DOM"
+    content.innerHTML = "I am learning JavaScript DOM"
+}
 
 // Exercise 34
 
 
-// function Adding(){
-//     const list = document.querySelector('#list')
-//     const newItem =document.createElement('li')
-//     newItem.textContent = 'New Item'
-//     list.appendChild(newItem)
-// }
+function Adding(){
+    const list = document.querySelector('#list')
+    const newItem =document.createElement('li')
+    newItem.textContent = 'New Item'
+    list.appendChild(newItem)
+}
 
-// function Removing(){
-//     if(list.lastChild){
-//         list.removeChild(list.lastChild)
+function Removing(){
+    if(list.lastChild){
+        list.removeChild(list.lastChild)
 
-//     }else{
-//         alert("No Elements")
-//     }
-// }
+    }else{
+        alert("No Elements")
+    }
+}
 
 // Exercise 35
 
